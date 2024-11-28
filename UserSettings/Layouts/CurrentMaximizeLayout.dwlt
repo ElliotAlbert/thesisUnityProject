@@ -1,0 +1,2336 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &1
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12010, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Children:
+  - {fileID: 3}
+  - {fileID: 16}
+  m_Position:
+    serializedVersion: 2
+    x: 0
+    y: 30
+    width: 1920
+    height: 947
+  m_MinSize: {x: 300, y: 150}
+  m_MaxSize: {x: 24288, y: 24288}
+  vertical: 0
+  controlID: 4241
+--- !u!114 &2
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 12015, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 100, y: 100}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Game
+    m_Image: {fileID: -6423792434712278376, guid: 0000000000000000d000000000000000, type: 0}
+    m_Tooltip: 
+  m_Pos:
+    serializedVersion: 2
+    x: 402
+    y: 73
+    width: 1045
+    height: 633
+  m_SerializedDataModeController:
+    m_DataMode: 0
+    m_PreferredDataMode: 0
+    m_SupportedDataModes: 
+    isAutomatic: 1
+  m_ViewDataDictionary: {fileID: 0}
+  m_OverlayCanvas:
+    m_LastAppliedPresetName: Default
+    m_SaveData: []
+    m_OverlaysVisible: 1
+  m_SerializedViewNames: []
+  m_SerializedViewValues: []
+  m_PlayModeViewName: GameView
+  m_ShowGizmos: 0
+  m_TargetDisplay: 0
+  m_ClearColor: {r: 0, g: 0, b: 0, a: 0}
+  m_TargetSize: {x: 4080, y: 1836}
+  m_TextureFilterMode: 0
+  m_TextureHideFlags: 61
+  m_RenderIMGUI: 1
+  m_EnterPlayModeBehavior: 0
+  m_UseMipMap: 0
+  m_VSyncEnabled: 0
+  m_Gizmos: 0
+  m_Stats: 1
+  m_SelectedSizes: 08000000000000000000000000000000000000000000000000000000000000000000000000000000
+  m_ZoomArea:
+    m_HRangeLocked: 0
+    m_VRangeLocked: 0
+    hZoomLockedByDefault: 0
+    vZoomLockedByDefault: 0
+    m_HBaseRangeMin: -2040
+    m_HBaseRangeMax: 2040
+    m_VBaseRangeMin: -918
+    m_VBaseRangeMax: 918
+    m_HAllowExceedBaseRangeMin: 1
+    m_HAllowExceedBaseRangeMax: 1
+    m_VAllowExceedBaseRangeMin: 1
+    m_VAllowExceedBaseRangeMax: 1
+    m_ScaleWithWindow: 0
+    m_HSlider: 0
+    m_VSlider: 0
+    m_IgnoreScrollWheelUntilClicked: 0
+    m_EnableMouseInput: 0
+    m_EnableSliderZoomHorizontal: 0
+    m_EnableSliderZoomVertical: 0
+    m_UniformScale: 1
+    m_UpDirection: 1
+    m_DrawArea:
+      serializedVersion: 2
+      x: 0
+      y: 21
+      width: 1045
+      height: 612
+    m_Scale: {x: 0.25612745, y: 0.25612745}
+    m_Translation: {x: 522.5, y: 306}
+    m_MarginLeft: 0
+    m_MarginRight: 0
+    m_MarginTop: 0
+    m_MarginBottom: 0
+    m_LastShownAreaInsideMargins:
+      serializedVersion: 2
+      x: -2040
+      y: -1194.7178
+      width: 4080
+      height: 2389.4355
+    m_MinimalGUI: 1
+  m_defaultScale: 0.25612745
+  m_LastWindowPixelSize: {x: 1045, y: 633}
+  m_ClearInEditMode: 1
+  m_NoCameraWarning: 1
+  m_LowResolutionForAspectRatios: 01000000000000000000
+  m_XRRenderMode: 0
+  m_RenderTexture: {fileID: 0}
+--- !u!114 &3
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12010, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Children:
+  - {fileID: 4}
+  - {fileID: 12}
+  m_Position:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1449
+    height: 947
+  m_MinSize: {x: 200, y: 150}
+  m_MaxSize: {x: 16192, y: 24288}
+  vertical: 1
+  controlID: 4242
+--- !u!114 &4
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12010, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Children:
+  - {fileID: 5}
+  - {fileID: 10}
+  m_Position:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1449
+    height: 654
+  m_MinSize: {x: 200, y: 100}
+  m_MaxSize: {x: 16192, y: 16192}
+  vertical: 0
+  controlID: 4243
+--- !u!114 &5
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 12010, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Children:
+  - {fileID: 6}
+  - {fileID: 8}
+  m_Position:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 402
+    height: 654
+  m_MinSize: {x: 100, y: 100}
+  m_MaxSize: {x: 8096, y: 16192}
+  vertical: 1
+  controlID: 4237
+--- !u!114 &6
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Children: []
+  m_Position:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 402
+    height: 326
+  m_MinSize: {x: 201, y: 221}
+  m_MaxSize: {x: 4001, y: 4021}
+  m_ActualView: {fileID: 7}
+  m_Panes:
+  - {fileID: 7}
+  m_Selected: 0
+  m_LastSelected: 0
+--- !u!114 &7
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12061, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Hierarchy
+    m_Image: {fileID: 7966133145522015247, guid: 0000000000000000d000000000000000, type: 0}
+    m_Tooltip: 
+  m_Pos:
+    serializedVersion: 2
+    x: 0
+    y: 73
+    width: 401
+    height: 305
+  m_SerializedDataModeController:
+    m_DataMode: 0
+    m_PreferredDataMode: 0
+    m_SupportedDataModes: 
+    isAutomatic: 1
+  m_ViewDataDictionary: {fileID: 0}
+  m_OverlayCanvas:
+    m_LastAppliedPresetName: Default
+    m_SaveData: []
+    m_OverlaysVisible: 1
+  m_SceneHierarchy:
+    m_TreeViewState:
+      scrollPos: {x: 0, y: 0}
+      m_SelectedIDs: 0a750000
+      m_LastClickedID: 29962
+      m_ExpandedIDs: fccaffff9ed5ffffdae8ffff02fbffff8c740000
+      m_RenameOverlay:
+        m_UserAcceptedRename: 0
+        m_Name: 
+        m_OriginalName: 
+        m_EditFieldRect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        m_UserData: 0
+        m_IsWaitingForDelay: 0
+        m_IsRenaming: 0
+        m_OriginalEventType: 11
+        m_IsRenamingFilename: 0
+        m_ClientGUIView: {fileID: 6}
+      m_SearchString: 
+    m_ExpandedScenes: []
+    m_CurrenRootInstanceID: 0
+    m_LockTracker:
+      m_IsLocked: 0
+    m_CurrentSortingName: TransformSorting
+  m_WindowGUID: 4c969a2b90040154d917609493e03593
+--- !u!114 &8
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: LidarGraphWindow
+  m_EditorClassIdentifier: 
+  m_Children: []
+  m_Position:
+    serializedVersion: 2
+    x: 0
+    y: 326
+    width: 402
+    height: 328
+  m_MinSize: {x: 100, y: 100}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_ActualView: {fileID: 9}
+  m_Panes:
+  - {fileID: 9}
+  m_Selected: 0
+  m_LastSelected: 0
+--- !u!114 &9
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f144f3d1a603ee48a73c9101155d0e2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 100, y: 100}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: LidarGraphWindow
+    m_Image: {fileID: 0}
+    m_Tooltip: 
+  m_Pos:
+    serializedVersion: 2
+    x: 0
+    y: 399
+    width: 401
+    height: 307
+  m_SerializedDataModeController:
+    m_DataMode: 0
+    m_PreferredDataMode: 0
+    m_SupportedDataModes: 
+    isAutomatic: 1
+  m_ViewDataDictionary: {fileID: 0}
+  m_OverlayCanvas:
+    m_LastAppliedPresetName: Default
+    m_SaveData: []
+    m_OverlaysVisible: 1
+  lidarData:
+  - {x: 0, y: 20}
+  - {x: 0.25, y: 20}
+  - {x: 0.5, y: 20}
+  - {x: 0.75, y: 20}
+  - {x: 1, y: 20}
+  - {x: 1.25, y: 20}
+  - {x: 1.5, y: 20}
+  - {x: 1.75, y: 20}
+  - {x: 2, y: 20}
+  - {x: 2.25, y: 20}
+  - {x: 2.5, y: 20}
+  - {x: 2.75, y: 20}
+  - {x: 3, y: 20}
+  - {x: 3.25, y: 20}
+  - {x: 3.5, y: 20}
+  - {x: 3.75, y: 20}
+  - {x: 4, y: 20}
+  - {x: 4.25, y: 20}
+  - {x: 4.5, y: 20}
+  - {x: 4.75, y: 20}
+  - {x: 5, y: 20}
+  - {x: 5.25, y: 20}
+  - {x: 5.5, y: 20}
+  - {x: 5.75, y: 20}
+  - {x: 6, y: 20}
+  - {x: 6.25, y: 20}
+  - {x: 6.5, y: 20}
+  - {x: 6.75, y: 20}
+  - {x: 7, y: 20}
+  - {x: 7.25, y: 20}
+  - {x: 7.5, y: 20}
+  - {x: 7.75, y: 20}
+  - {x: 8, y: 20}
+  - {x: 8.25, y: 20}
+  - {x: 8.5, y: 20}
+  - {x: 8.75, y: 20}
+  - {x: 9, y: 20}
+  - {x: 9.25, y: 20}
+  - {x: 9.5, y: 20}
+  - {x: 9.75, y: 20}
+  - {x: 10, y: 20}
+  - {x: 10.25, y: 20}
+  - {x: 10.5, y: 20}
+  - {x: 10.75, y: 20}
+  - {x: 11, y: 20}
+  - {x: 11.25, y: 20}
+  - {x: 11.5, y: 20}
+  - {x: 11.75, y: 20}
+  - {x: 12, y: 20}
+  - {x: 12.25, y: 20}
+  - {x: 12.5, y: 20}
+  - {x: 12.75, y: 20}
+  - {x: 13, y: 20}
+  - {x: 13.25, y: 20}
+  - {x: 13.5, y: 20}
+  - {x: 13.75, y: 20}
+  - {x: 14, y: 20}
+  - {x: 14.25, y: 20}
+  - {x: 14.5, y: 20}
+  - {x: 14.75, y: 20}
+  - {x: 15, y: 20}
+  - {x: 15.25, y: 20}
+  - {x: 15.5, y: 20}
+  - {x: 15.75, y: 20}
+  - {x: 16, y: 20}
+  - {x: 16.25, y: 20}
+  - {x: 16.5, y: 20}
+  - {x: 16.75, y: 20}
+  - {x: 17, y: 20}
+  - {x: 17.25, y: 20}
+  - {x: 17.5, y: 20}
+  - {x: 17.75, y: 20}
+  - {x: 18, y: 20}
+  - {x: 18.25, y: 20}
+  - {x: 18.5, y: 20}
+  - {x: 18.75, y: 20}
+  - {x: 19, y: 20}
+  - {x: 19.25, y: 20}
+  - {x: 19.5, y: 20}
+  - {x: 19.75, y: 20}
+  - {x: 20, y: 20}
+  - {x: 20.25, y: 20}
+  - {x: 20.5, y: 20}
+  - {x: 20.75, y: 20}
+  - {x: 21, y: 20}
+  - {x: 21.25, y: 20}
+  - {x: 21.5, y: 20}
+  - {x: 21.75, y: 20}
+  - {x: 22, y: 20}
+  - {x: 22.25, y: 20}
+  - {x: 22.5, y: 20}
+  - {x: 22.75, y: 20}
+  - {x: 23, y: 20}
+  - {x: 23.25, y: 20}
+  - {x: 23.5, y: 20}
+  - {x: 23.75, y: 20}
+  - {x: 24, y: 20}
+  - {x: 24.25, y: 20}
+  - {x: 24.5, y: 20}
+  - {x: 24.75, y: 20}
+  - {x: 25, y: 20}
+  - {x: 25.25, y: 20}
+  - {x: 25.5, y: 20}
+  - {x: 25.75, y: 20}
+  - {x: 26, y: 20}
+  - {x: 26.25, y: 20}
+  - {x: 26.5, y: 20}
+  - {x: 26.75, y: 20}
+  - {x: 27, y: 20}
+  - {x: 27.25, y: 20}
+  - {x: 27.5, y: 20}
+  - {x: 27.75, y: 20}
+  - {x: 28, y: 20}
+  - {x: 28.25, y: 20}
+  - {x: 28.5, y: 20}
+  - {x: 28.75, y: 20}
+  - {x: 29, y: 20}
+  - {x: 29.25, y: 20}
+  - {x: 29.5, y: 20}
+  - {x: 29.75, y: 20}
+  - {x: 30, y: 20}
+  - {x: 30.25, y: 20}
+  - {x: 30.5, y: 20}
+  - {x: 30.75, y: 20}
+  - {x: 31, y: 20}
+  - {x: 31.25, y: 20}
+  - {x: 31.5, y: 20}
+  - {x: 31.75, y: 20}
+  - {x: 32, y: 20}
+  - {x: 32.25, y: 20}
+  - {x: 32.5, y: 20}
+  - {x: 32.75, y: 20}
+  - {x: 33, y: 20}
+  - {x: 33.25, y: 20}
+  - {x: 33.5, y: 20}
+  - {x: 33.75, y: 20}
+  - {x: 34, y: 20}
+  - {x: 34.25, y: 20}
+  - {x: 34.5, y: 20}
+  - {x: 34.75, y: 20}
+  - {x: 35, y: 20}
+  - {x: 35.25, y: 20}
+  - {x: 35.5, y: 20}
+  - {x: 35.75, y: 20}
+  - {x: 36, y: 20}
+  - {x: 36.25, y: 20}
+  - {x: 36.5, y: 20}
+  - {x: 36.75, y: 20}
+  - {x: 37, y: 20}
+  - {x: 37.25, y: 20}
+  - {x: 37.5, y: 20}
+  - {x: 37.75, y: 20}
+  - {x: 38, y: 20}
+  - {x: 38.25, y: 20}
+  - {x: 38.5, y: 20}
+  - {x: 38.75, y: 20}
+  - {x: 39, y: 20}
+  - {x: 39.25, y: 20}
+  - {x: 39.5, y: 20}
+  - {x: 39.75, y: 20}
+  - {x: 40, y: 20}
+  - {x: 40.25, y: 20}
+  - {x: 40.5, y: 20}
+  - {x: 40.75, y: 20}
+  - {x: 41, y: 20}
+  - {x: 41.25, y: 20}
+  - {x: 41.5, y: 20}
+  - {x: 41.75, y: 20}
+  - {x: 42, y: 20}
+  - {x: 42.25, y: 20}
+  - {x: 42.5, y: 20}
+  - {x: 42.75, y: 20}
+  - {x: 43, y: 20}
+  - {x: 43.25, y: 20}
+  - {x: 43.5, y: 20}
+  - {x: 43.75, y: 20}
+  - {x: 44, y: 20}
+  - {x: 44.25, y: 20}
+  - {x: 44.5, y: 20}
+  - {x: 44.75, y: 20}
+  - {x: 45, y: 20}
+  - {x: 45.25, y: 20}
+  - {x: 45.5, y: 20}
+  - {x: 45.75, y: 20}
+  - {x: 46, y: 20}
+  - {x: 46.25, y: 20}
+  - {x: 46.5, y: 20}
+  - {x: 46.75, y: 20}
+  - {x: 47, y: 20}
+  - {x: 47.25, y: 20}
+  - {x: 47.5, y: 20}
+  - {x: 47.75, y: 20}
+  - {x: 48, y: 20}
+  - {x: 48.25, y: 20}
+  - {x: 48.5, y: 20}
+  - {x: 48.75, y: 20}
+  - {x: 49, y: 20}
+  - {x: 49.25, y: 20}
+  - {x: 49.5, y: 20}
+  - {x: 49.75, y: 20}
+  - {x: 50, y: 20}
+  - {x: 50.25, y: 20}
+  - {x: 50.5, y: 20}
+  - {x: 50.75, y: 20}
+  - {x: 51, y: 20}
+  - {x: 51.25, y: 20}
+  - {x: 51.5, y: 20}
+  - {x: 51.75, y: 20}
+  - {x: 52, y: 20}
+  - {x: 52.25, y: 20}
+  - {x: 52.5, y: 20}
+  - {x: 52.75, y: 20}
+  - {x: 53, y: 20}
+  - {x: 53.25, y: 20}
+  - {x: 53.5, y: 20}
+  - {x: 53.75, y: 20}
+  - {x: 54, y: 20}
+  - {x: 54.25, y: 20}
+  - {x: 54.5, y: 20}
+  - {x: 54.75, y: 20}
+  - {x: 55, y: 20}
+  - {x: 55.25, y: 20}
+  - {x: 55.5, y: 20}
+  - {x: 55.75, y: 20}
+  - {x: 56, y: 20}
+  - {x: 56.25, y: 20}
+  - {x: 56.5, y: 20}
+  - {x: 56.75, y: 20}
+  - {x: 57, y: 20}
+  - {x: 57.25, y: 20}
+  - {x: 57.5, y: 20}
+  - {x: 57.75, y: 20}
+  - {x: 58, y: 20}
+  - {x: 58.25, y: 20}
+  - {x: 58.5, y: 20}
+  - {x: 58.75, y: 20}
+  - {x: 59, y: 20}
+  - {x: 59.25, y: 20}
+  - {x: 59.5, y: 20}
+  - {x: 59.75, y: 20}
+  - {x: 60, y: 20}
+  - {x: 60.25, y: 20}
+  - {x: 60.5, y: 20}
+  - {x: 60.75, y: 20}
+  - {x: 61, y: 20}
+  - {x: 61.25, y: 20}
+  - {x: 61.5, y: 20}
+  - {x: 61.75, y: 20}
+  - {x: 62, y: 20}
+  - {x: 62.25, y: 20}
+  - {x: 62.5, y: 20}
+  - {x: 62.75, y: 20}
+  - {x: 63, y: 20}
+  - {x: 63.25, y: 20}
+  - {x: 63.5, y: 20}
+  - {x: 63.75, y: 20}
+  - {x: 64, y: 20}
+  - {x: 64.25, y: 20}
+  - {x: 64.5, y: 20}
+  - {x: 64.75, y: 20}
+  - {x: 65, y: 20}
+  - {x: 65.25, y: 20}
+  - {x: 65.5, y: 20}
+  - {x: 65.75, y: 20}
+  - {x: 66, y: 20}
+  - {x: 66.25, y: 20}
+  - {x: 66.5, y: 20}
+  - {x: 66.75, y: 20}
+  - {x: 67, y: 20}
+  - {x: 67.25, y: 20}
+  - {x: 67.5, y: 20}
+  - {x: 67.75, y: 20}
+  - {x: 68, y: 20}
+  - {x: 68.25, y: 20}
+  - {x: 68.5, y: 20}
+  - {x: 68.75, y: 20}
+  - {x: 69, y: 20}
+  - {x: 69.25, y: 20}
+  - {x: 69.5, y: 20}
+  - {x: 69.75, y: 20}
+  - {x: 70, y: 20}
+  - {x: 70.25, y: 20}
+  - {x: 70.5, y: 20}
+  - {x: 70.75, y: 20}
+  - {x: 71, y: 20}
+  - {x: 71.25, y: 20}
+  - {x: 71.5, y: 20}
+  - {x: 71.75, y: 20}
+  - {x: 72, y: 20}
+  - {x: 72.25, y: 20}
+  - {x: 72.5, y: 20}
+  - {x: 72.75, y: 20}
+  - {x: 73, y: 20}
+  - {x: 73.25, y: 20}
+  - {x: 73.5, y: 20}
+  - {x: 73.75, y: 20}
+  - {x: 74, y: 20}
+  - {x: 74.25, y: 20}
+  - {x: 74.5, y: 20}
+  - {x: 74.75, y: 20}
+  - {x: 75, y: 20}
+  - {x: 75.25, y: 20}
+  - {x: 75.5, y: 20}
+  - {x: 75.75, y: 20}
+  - {x: 76, y: 20}
+  - {x: 76.25, y: 20}
+  - {x: 76.5, y: 20}
+  - {x: 76.75, y: 20}
+  - {x: 77, y: 20}
+  - {x: 77.25, y: 20}
+  - {x: 77.5, y: 20}
+  - {x: 77.75, y: 20}
+  - {x: 78, y: 20}
+  - {x: 78.25, y: 20}
+  - {x: 78.5, y: 20}
+  - {x: 78.75, y: 20}
+  - {x: 79, y: 20}
+  - {x: 79.25, y: 20}
+  - {x: 79.5, y: 20}
+  - {x: 79.75, y: 20}
+  - {x: 80, y: 20}
+  - {x: 80.25, y: 20}
+  - {x: 80.5, y: 20}
+  - {x: 80.75, y: 20}
+  - {x: 81, y: 20}
+  - {x: 81.25, y: 20}
+  - {x: 81.5, y: 20}
+  - {x: 81.75, y: 20}
+  - {x: 82, y: 20}
+  - {x: 82.25, y: 20}
+  - {x: 82.5, y: 20}
+  - {x: 82.75, y: 20}
+  - {x: 83, y: 20}
+  - {x: 83.25, y: 20}
+  - {x: 83.5, y: 20}
+  - {x: 83.75, y: 20}
+  - {x: 84, y: 20}
+  - {x: 84.25, y: 20}
+  - {x: 84.5, y: 20}
+  - {x: 84.75, y: 20}
+  - {x: 85, y: 20}
+  - {x: 85.25, y: 20}
+  - {x: 85.5, y: 20}
+  - {x: 85.75, y: 20}
+  - {x: 86, y: 20}
+  - {x: 86.25, y: 20}
+  - {x: 86.5, y: 20}
+  - {x: 86.75, y: 20}
+  - {x: 87, y: 20}
+  - {x: 87.25, y: 20}
+  - {x: 87.5, y: 20}
+  - {x: 87.75, y: 20}
+  - {x: 88, y: 20}
+  - {x: 88.25, y: 20}
+  - {x: 88.5, y: 20}
+  - {x: 88.75, y: 20}
+  - {x: 89, y: 20}
+  - {x: 89.25, y: 20}
+  - {x: 89.5, y: 20}
+  - {x: 89.75, y: 20}
+  - {x: 90, y: 20}
+  - {x: 90.25, y: 20}
+  - {x: 90.5, y: 20}
+  - {x: 90.75, y: 20}
+  - {x: 91, y: 20}
+  - {x: 91.25, y: 20}
+  - {x: 91.5, y: 20}
+  - {x: 91.75, y: 20}
+  - {x: 92, y: 20}
+  - {x: 92.25, y: 20}
+  - {x: 92.5, y: 20}
+  - {x: 92.75, y: 20}
+  - {x: 93, y: 20}
+  - {x: 93.25, y: 20}
+  - {x: 93.5, y: 20}
+  - {x: 93.75, y: 20}
+  - {x: 94, y: 20}
+  - {x: 94.25, y: 20}
+  - {x: 94.5, y: 20}
+  - {x: 94.75, y: 20}
+  - {x: 95, y: 20}
+  - {x: 95.25, y: 20}
+  - {x: 95.5, y: 20}
+  - {x: 95.75, y: 20}
+  - {x: 96, y: 20}
+  - {x: 96.25, y: 20}
+  - {x: 96.5, y: 20}
+  - {x: 96.75, y: 20}
+  - {x: 97, y: 20}
+  - {x: 97.25, y: 20}
+  - {x: 97.5, y: 20}
+  - {x: 97.75, y: 20}
+  - {x: 98, y: 20}
+  - {x: 98.25, y: 20}
+  - {x: 98.5, y: 20}
+  - {x: 98.75, y: 20}
+  - {x: 99, y: 20}
+  - {x: 99.25, y: 20}
+  - {x: 99.5, y: 20}
+  - {x: 99.75, y: 20}
+  - {x: 100, y: 20}
+  - {x: 100.25, y: 20}
+  - {x: 100.5, y: 20}
+  - {x: 100.75, y: 20}
+  - {x: 101, y: 20}
+  - {x: 101.25, y: 20}
+  - {x: 101.5, y: 20}
+  - {x: 101.75, y: 20}
+  - {x: 102, y: 20}
+  - {x: 102.25, y: 20}
+  - {x: 102.5, y: 20}
+  - {x: 102.75, y: 20}
+  - {x: 103, y: 20}
+  - {x: 103.25, y: 20}
+  - {x: 103.5, y: 20}
+  - {x: 103.75, y: 20}
+  - {x: 104, y: 20}
+  - {x: 104.25, y: 20}
+  - {x: 104.5, y: 20}
+  - {x: 104.75, y: 20}
+  - {x: 105, y: 20}
+  - {x: 105.25, y: 20}
+  - {x: 105.5, y: 20}
+  - {x: 105.75, y: 20}
+  - {x: 106, y: 20}
+  - {x: 106.25, y: 20}
+  - {x: 106.5, y: 20}
+  - {x: 106.75, y: 20}
+  - {x: 107, y: 20}
+  - {x: 107.25, y: 20}
+  - {x: 107.5, y: 20}
+  - {x: 107.75, y: 20}
+  - {x: 108, y: 20}
+  - {x: 108.25, y: 20}
+  - {x: 108.5, y: 20}
+  - {x: 108.75, y: 20}
+  - {x: 109, y: 20}
+  - {x: 109.25, y: 20}
+  - {x: 109.5, y: 20}
+  - {x: 109.75, y: 20}
+  - {x: 110, y: 20}
+  - {x: 110.25, y: 20}
+  - {x: 110.5, y: 20}
+  - {x: 110.75, y: 20}
+  - {x: 111, y: 20}
+  - {x: 111.25, y: 20}
+  - {x: 111.5, y: 20}
+  - {x: 111.75, y: 20}
+  - {x: 112, y: 20}
+  - {x: 112.25, y: 20}
+  - {x: 112.5, y: 20}
+  - {x: 112.75, y: 20}
+  - {x: 113, y: 20}
+  - {x: 113.25, y: 20}
+  - {x: 113.5, y: 20}
+  - {x: 113.75, y: 20}
+  - {x: 114, y: 20}
+  - {x: 114.25, y: 20}
+  - {x: 114.5, y: 20}
+  - {x: 114.75, y: 20}
+  - {x: 115, y: 20}
+  - {x: 115.25, y: 20}
+  - {x: 115.5, y: 20}
+  - {x: 115.75, y: 20}
+  - {x: 116, y: 20}
+  - {x: 116.25, y: 20}
+  - {x: 116.5, y: 20}
+  - {x: 116.75, y: 20}
+  - {x: 117, y: 20}
+  - {x: 117.25, y: 20}
+  - {x: 117.5, y: 20}
+  - {x: 117.75, y: 20}
+  - {x: 118, y: 20}
+  - {x: 118.25, y: 20}
+  - {x: 118.5, y: 20}
+  - {x: 118.75, y: 20}
+  - {x: 119, y: 20}
+  - {x: 119.25, y: 20}
+  - {x: 119.5, y: 20}
+  - {x: 119.75, y: 20}
+  - {x: 120, y: 20}
+  - {x: 120.25, y: 20}
+  - {x: 120.5, y: 20}
+  - {x: 120.75, y: 20}
+  - {x: 121, y: 20}
+  - {x: 121.25, y: 20}
+  - {x: 121.5, y: 20}
+  - {x: 121.75, y: 20}
+  - {x: 122, y: 20}
+  - {x: 122.25, y: 20}
+  - {x: 122.5, y: 20}
+  - {x: 122.75, y: 20}
+  - {x: 123, y: 20}
+  - {x: 123.25, y: 20}
+  - {x: 123.5, y: 20}
+  - {x: 123.75, y: 20}
+  - {x: 124, y: 20}
+  - {x: 124.25, y: 20}
+  - {x: 124.5, y: 20}
+  - {x: 124.75, y: 20}
+  - {x: 125, y: 20}
+  - {x: 125.25, y: 20}
+  - {x: 125.5, y: 20}
+  - {x: 125.75, y: 20}
+  - {x: 126, y: 20}
+  - {x: 126.25, y: 20}
+  - {x: 126.5, y: 20}
+  - {x: 126.75, y: 20}
+  - {x: 127, y: 20}
+  - {x: 127.25, y: 20}
+  - {x: 127.5, y: 20}
+  - {x: 127.75, y: 20}
+  - {x: 128, y: 20}
+  - {x: 128.25, y: 20}
+  - {x: 128.5, y: 20}
+  - {x: 128.75, y: 20}
+  - {x: 129, y: 20}
+  - {x: 129.25, y: 20}
+  - {x: 129.5, y: 20}
+  - {x: 129.75, y: 20}
+  - {x: 130, y: 20}
+  - {x: 130.25, y: 20}
+  - {x: 130.5, y: 20}
+  - {x: 130.75, y: 20}
+  - {x: 131, y: 20}
+  - {x: 131.25, y: 20}
+  - {x: 131.5, y: 20}
+  - {x: 131.75, y: 20}
+  - {x: 132, y: 20}
+  - {x: 132.25, y: 20}
+  - {x: 132.5, y: 20}
+  - {x: 132.75, y: 20}
+  - {x: 133, y: 20}
+  - {x: 133.25, y: 20}
+  - {x: 133.5, y: 20}
+  - {x: 133.75, y: 20}
+  - {x: 134, y: 20}
+  - {x: 134.25, y: 20}
+  - {x: 134.5, y: 20}
+  - {x: 134.75, y: 20}
+  - {x: 135, y: 20}
+  - {x: 135.25, y: 20}
+  - {x: 135.5, y: 20}
+  - {x: 135.75, y: 20}
+  - {x: 136, y: 20}
+  - {x: 136.25, y: 20}
+  - {x: 136.5, y: 20}
+  - {x: 136.75, y: 20}
+  - {x: 137, y: 20}
+  - {x: 137.25, y: 20}
+  - {x: 137.5, y: 20}
+  - {x: 137.75, y: 20}
+  - {x: 138, y: 20}
+  - {x: 138.25, y: 20}
+  - {x: 138.5, y: 20}
+  - {x: 138.75, y: 20}
+  - {x: 139, y: 20}
+  - {x: 139.25, y: 20}
+  - {x: 139.5, y: 20}
+  - {x: 139.75, y: 20}
+  - {x: 140, y: 20}
+  - {x: 140.25, y: 20}
+  - {x: 140.5, y: 20}
+  - {x: 140.75, y: 20}
+  - {x: 141, y: 20}
+  - {x: 141.25, y: 20}
+  - {x: 141.5, y: 20}
+  - {x: 141.75, y: 20}
+  - {x: 142, y: 20}
+  - {x: 142.25, y: 20}
+  - {x: 142.5, y: 20}
+  - {x: 142.75, y: 20}
+  - {x: 143, y: 20}
+  - {x: 143.25, y: 20}
+  - {x: 143.5, y: 20}
+  - {x: 143.75, y: 20}
+  - {x: 144, y: 20}
+  - {x: 144.25, y: 20}
+  - {x: 144.5, y: 20}
+  - {x: 144.75, y: 20}
+  - {x: 145, y: 20}
+  - {x: 145.25, y: 20}
+  - {x: 145.5, y: 20}
+  - {x: 145.75, y: 20}
+  - {x: 146, y: 20}
+  - {x: 146.25, y: 20}
+  - {x: 146.5, y: 20}
+  - {x: 146.75, y: 20}
+  - {x: 147, y: 20}
+  - {x: 147.25, y: 20}
+  - {x: 147.5, y: 20}
+  - {x: 147.75, y: 20}
+  - {x: 148, y: 20}
+  - {x: 148.25, y: 20}
+  - {x: 148.5, y: 20}
+  - {x: 148.75, y: 20}
+  - {x: 149, y: 20}
+  - {x: 149.25, y: 20}
+  - {x: 149.5, y: 20}
+  - {x: 149.75, y: 20}
+  - {x: 150, y: 20}
+  - {x: 150.25, y: 20}
+  - {x: 150.5, y: 20}
+  - {x: 150.75, y: 20}
+  - {x: 151, y: 20}
+  - {x: 151.25, y: 20}
+  - {x: 151.5, y: 20}
+  - {x: 151.75, y: 20}
+  - {x: 152, y: 20}
+  - {x: 152.25, y: 20}
+  - {x: 152.5, y: 20}
+  - {x: 152.75, y: 20}
+  - {x: 153, y: 20}
+  - {x: 153.25, y: 20}
+  - {x: 153.5, y: 20}
+  - {x: 153.75, y: 20}
+  - {x: 154, y: 20}
+  - {x: 154.25, y: 20}
+  - {x: 154.5, y: 20}
+  - {x: 154.75, y: 20}
+  - {x: 155, y: 20}
+  - {x: 155.25, y: 20}
+  - {x: 155.5, y: 20}
+  - {x: 155.75, y: 20}
+  - {x: 156, y: 20}
+  - {x: 156.25, y: 20}
+  - {x: 156.5, y: 20}
+  - {x: 156.75, y: 20}
+  - {x: 157, y: 20}
+  - {x: 157.25, y: 20}
+  - {x: 157.5, y: 20}
+  - {x: 157.75, y: 20}
+  - {x: 158, y: 20}
+  - {x: 158.25, y: 20}
+  - {x: 158.5, y: 20}
+  - {x: 158.75, y: 20}
+  - {x: 159, y: 20}
+  - {x: 159.25, y: 20}
+  - {x: 159.5, y: 20}
+  - {x: 159.75, y: 20}
+  - {x: 160, y: 20}
+  - {x: 160.25, y: 20}
+  - {x: 160.5, y: 20}
+  - {x: 160.75, y: 20}
+  - {x: 161, y: 20}
+  - {x: 161.25, y: 20}
+  - {x: 161.5, y: 5.1029267}
+  - {x: 161.75, y: 5.0946593}
+  - {x: 162, y: 5.0865154}
+  - {x: 162.25, y: 5.0784945}
+  - {x: 162.5, y: 5.070593}
+  - {x: 162.75, y: 5.0628147}
+  - {x: 163, y: 5.0551558}
+  - {x: 163.25, y: 5.0476155}
+  - {x: 163.5, y: 5.0401936}
+  - {x: 163.75, y: 5.0328884}
+  - {x: 164, y: 5.025701}
+  - {x: 164.25, y: 5.0186296}
+  - {x: 164.5, y: 5.011673}
+  - {x: 164.75, y: 5.004831}
+  - {x: 165, y: 4.998102}
+  - {x: 165.25, y: 4.4481897}
+  - {x: 165.5, y: 4.351968}
+  - {x: 165.75, y: 4.307711}
+  - {x: 166, y: 4.275451}
+  - {x: 166.25, y: 4.2496953}
+  - {x: 166.5, y: 4.2283025}
+  - {x: 166.75, y: 4.210122}
+  - {x: 167, y: 4.1945066}
+  - {x: 167.25, y: 4.180992}
+  - {x: 167.5, y: 4.169285}
+  - {x: 167.75, y: 4.159171}
+  - {x: 168, y: 4.1504726}
+  - {x: 168.25, y: 4.143082}
+  - {x: 168.5, y: 4.1368766}
+  - {x: 168.75, y: 4.131805}
+  - {x: 169, y: 4.1278086}
+  - {x: 169.25, y: 4.1248446}
+  - {x: 169.5, y: 4.1228747}
+  - {x: 169.75, y: 4.1219025}
+  - {x: 170, y: 4.121886}
+  - {x: 170.25, y: 4.122853}
+  - {x: 170.5, y: 4.1248007}
+  - {x: 170.75, y: 4.1277423}
+  - {x: 171, y: 4.13172}
+  - {x: 171.25, y: 4.136772}
+  - {x: 171.5, y: 4.1429477}
+  - {x: 171.75, y: 4.1503286}
+  - {x: 172, y: 4.159003}
+  - {x: 172.25, y: 4.1690936}
+  - {x: 172.5, y: 4.180765}
+  - {x: 172.75, y: 4.194239}
+  - {x: 173, y: 4.209814}
+  - {x: 173.25, y: 4.227943}
+  - {x: 173.5, y: 4.2492747}
+  - {x: 173.75, y: 4.274928}
+  - {x: 174, y: 4.307044}
+  - {x: 174.25, y: 4.3450637}
+  - {x: 174.5, y: 4.3862004}
+  - {x: 174.75, y: 4.4308195}
+  - {x: 175, y: 4.4793825}
+  - {x: 175.25, y: 4.5324664}
+  - {x: 175.5, y: 4.5908217}
+  - {x: 175.75, y: 4.655462}
+  - {x: 176, y: 4.7277837}
+  - {x: 176.25, y: 4.8036976}
+  - {x: 176.5, y: 4.8016295}
+  - {x: 176.75, y: 4.799655}
+  - {x: 177, y: 4.797773}
+  - {x: 177.25, y: 4.795984}
+  - {x: 177.5, y: 4.794287}
+  - {x: 177.75, y: 4.7926836}
+  - {x: 178, y: 4.7911716}
+  - {x: 178.25, y: 4.789752}
+  - {x: 178.5, y: 4.788424}
+  - {x: 178.75, y: 4.7871885}
+  - {x: 179, y: 4.7860436}
+  - {x: 179.25, y: 4.7849913}
+  - {x: 179.5, y: 4.78403}
+  - {x: 179.75, y: 4.7831607}
+  - {x: 180, y: 4.7823825}
+  - {x: 180.25, y: 4.781695}
+  - {x: 180.5, y: 4.7810993}
+  - {x: 180.75, y: 4.780595}
+  - {x: 181, y: 4.780182}
+  - {x: 181.25, y: 4.77986}
+  - {x: 181.5, y: 4.7796283}
+  - {x: 181.75, y: 4.779488}
+  - {x: 182, y: 4.7794385}
+  - {x: 182.25, y: 4.77948}
+  - {x: 182.5, y: 4.779613}
+  - {x: 182.75, y: 4.779836}
+  - {x: 183, y: 20}
+  - {x: 183.25, y: 20}
+  - {x: 183.5, y: 20}
+  - {x: 183.75, y: 20}
+  - {x: 184, y: 20}
+  - {x: 184.25, y: 20}
+  - {x: 184.5, y: 20}
+  - {x: 184.75, y: 4.940609}
+  - {x: 185, y: 4.8659587}
+  - {x: 185.25, y: 4.8151107}
+  - {x: 185.5, y: 4.774984}
+  - {x: 185.75, y: 4.741495}
+  - {x: 186, y: 4.7126865}
+  - {x: 186.25, y: 4.687457}
+  - {x: 186.5, y: 4.6650963}
+  - {x: 186.75, y: 4.6451206}
+  - {x: 187, y: 4.627194}
+  - {x: 187.25, y: 4.6110506}
+  - {x: 187.5, y: 4.596508}
+  - {x: 187.75, y: 4.583402}
+  - {x: 188, y: 4.5716147}
+  - {x: 188.25, y: 4.5610523}
+  - {x: 188.5, y: 4.551629}
+  - {x: 188.75, y: 4.5432854}
+  - {x: 189, y: 4.535967}
+  - {x: 189.25, y: 4.529628}
+  - {x: 189.5, y: 4.524237}
+  - {x: 189.75, y: 4.519765}
+  - {x: 190, y: 4.516195}
+  - {x: 190.25, y: 4.5135126}
+  - {x: 190.5, y: 4.5117}
+  - {x: 190.75, y: 4.5107656}
+  - {x: 191, y: 4.510706}
+  - {x: 191.25, y: 4.5115294}
+  - {x: 191.5, y: 4.5132446}
+  - {x: 191.75, y: 4.5158825}
+  - {x: 192, y: 4.5194626}
+  - {x: 192.25, y: 4.5240126}
+  - {x: 192.5, y: 4.5295835}
+  - {x: 192.75, y: 4.5362263}
+  - {x: 193, y: 4.543996}
+  - {x: 193.25, y: 4.552985}
+  - {x: 193.5, y: 4.5632954}
+  - {x: 193.75, y: 4.5750484}
+  - {x: 194, y: 4.5884066}
+  - {x: 194.25, y: 4.603561}
+  - {x: 194.5, y: 4.6208177}
+  - {x: 194.75, y: 4.6405196}
+  - {x: 195, y: 4.663222}
+  - {x: 195.25, y: 4.689728}
+  - {x: 195.5, y: 4.7213893}
+  - {x: 195.75, y: 4.7607017}
+  - {x: 196, y: 4.8137197}
+  - {x: 196.25, y: 4.911174}
+  - {x: 196.5, y: 20}
+  - {x: 196.75, y: 20}
+  - {x: 197, y: 20}
+  - {x: 197.25, y: 20}
+  - {x: 197.5, y: 20}
+  - {x: 197.75, y: 20}
+  - {x: 198, y: 20}
+  - {x: 198.25, y: 20}
+  - {x: 198.5, y: 20}
+  - {x: 198.75, y: 20}
+  - {x: 199, y: 20}
+  - {x: 199.25, y: 20}
+  - {x: 199.5, y: 20}
+  - {x: 199.75, y: 20}
+  - {x: 200, y: 20}
+  - {x: 200.25, y: 20}
+  - {x: 200.5, y: 20}
+  - {x: 200.75, y: 20}
+  - {x: 201, y: 20}
+  - {x: 201.25, y: 20}
+  - {x: 201.5, y: 20}
+  - {x: 201.75, y: 20}
+  - {x: 202, y: 20}
+  - {x: 202.25, y: 20}
+  - {x: 202.5, y: 20}
+  - {x: 202.75, y: 20}
+  - {x: 203, y: 8.955759}
+  - {x: 203.25, y: 8.840344}
+  - {x: 203.5, y: 8.779387}
+  - {x: 203.75, y: 8.735524}
+  - {x: 204, y: 8.701798}
+  - {x: 204.25, y: 8.675598}
+  - {x: 204.5, y: 8.655436}
+  - {x: 204.75, y: 8.640414}
+  - {x: 205, y: 8.629853}
+  - {x: 205.25, y: 8.623363}
+  - {x: 205.5, y: 8.620678}
+  - {x: 205.75, y: 8.621603}
+  - {x: 206, y: 8.62606}
+  - {x: 206.25, y: 8.63401}
+  - {x: 206.5, y: 8.645664}
+  - {x: 206.75, y: 8.661652}
+  - {x: 207, y: 8.682668}
+  - {x: 207.25, y: 8.709687}
+  - {x: 207.5, y: 8.744535}
+  - {x: 207.75, y: 8.790829}
+  - {x: 208, y: 8.857902}
+  - {x: 208.25, y: 20}
+  - {x: 208.5, y: 20}
+  - {x: 208.75, y: 20}
+  - {x: 209, y: 20}
+  - {x: 209.25, y: 20}
+  - {x: 209.5, y: 20}
+  - {x: 209.75, y: 20}
+  - {x: 210, y: 20}
+  - {x: 210.25, y: 20}
+  - {x: 210.5, y: 20}
+  - {x: 210.75, y: 20}
+  - {x: 211, y: 20}
+  - {x: 211.25, y: 20}
+  - {x: 211.5, y: 20}
+  - {x: 211.75, y: 20}
+  - {x: 212, y: 20}
+  - {x: 212.25, y: 20}
+  - {x: 212.5, y: 20}
+  - {x: 212.75, y: 20}
+  - {x: 213, y: 20}
+  - {x: 213.25, y: 20}
+  - {x: 213.5, y: 20}
+  - {x: 213.75, y: 20}
+  - {x: 214, y: 20}
+  - {x: 214.25, y: 20}
+  - {x: 214.5, y: 20}
+  - {x: 214.75, y: 20}
+  - {x: 215, y: 20}
+  - {x: 215.25, y: 20}
+  - {x: 215.5, y: 20}
+  - {x: 215.75, y: 20}
+  - {x: 216, y: 20}
+  - {x: 216.25, y: 20}
+  - {x: 216.5, y: 20}
+  - {x: 216.75, y: 20}
+  - {x: 217, y: 20}
+  - {x: 217.25, y: 20}
+  - {x: 217.5, y: 20}
+  - {x: 217.75, y: 20}
+  - {x: 218, y: 20}
+  - {x: 218.25, y: 20}
+  - {x: 218.5, y: 20}
+  - {x: 218.75, y: 20}
+  - {x: 219, y: 20}
+  - {x: 219.25, y: 20}
+  - {x: 219.5, y: 20}
+  - {x: 219.75, y: 20}
+  - {x: 220, y: 20}
+  - {x: 220.25, y: 20}
+  - {x: 220.5, y: 20}
+  - {x: 220.75, y: 20}
+  - {x: 221, y: 20}
+  - {x: 221.25, y: 20}
+  - {x: 221.5, y: 20}
+  - {x: 221.75, y: 20}
+  - {x: 222, y: 20}
+  - {x: 222.25, y: 20}
+  - {x: 222.5, y: 20}
+  - {x: 222.75, y: 20}
+  - {x: 223, y: 20}
+  - {x: 223.25, y: 20}
+  - {x: 223.5, y: 20}
+  - {x: 223.75, y: 20}
+  - {x: 224, y: 20}
+  - {x: 224.25, y: 20}
+  - {x: 224.5, y: 20}
+  - {x: 224.75, y: 20}
+  - {x: 225, y: 20}
+  - {x: 225.25, y: 20}
+  - {x: 225.5, y: 20}
+  - {x: 225.75, y: 20}
+  - {x: 226, y: 20}
+  - {x: 226.25, y: 20}
+  - {x: 226.5, y: 20}
+  - {x: 226.75, y: 20}
+  - {x: 227, y: 20}
+  - {x: 227.25, y: 20}
+  - {x: 227.5, y: 20}
+  - {x: 227.75, y: 20}
+  - {x: 228, y: 20}
+  - {x: 228.25, y: 20}
+  - {x: 228.5, y: 20}
+  - {x: 228.75, y: 20}
+  - {x: 229, y: 20}
+  - {x: 229.25, y: 20}
+  - {x: 229.5, y: 20}
+  - {x: 229.75, y: 20}
+  - {x: 230, y: 20}
+  - {x: 230.25, y: 20}
+  - {x: 230.5, y: 20}
+  - {x: 230.75, y: 20}
+  - {x: 231, y: 20}
+  - {x: 231.25, y: 20}
+  - {x: 231.5, y: 20}
+  - {x: 231.75, y: 20}
+  - {x: 232, y: 20}
+  - {x: 232.25, y: 20}
+  - {x: 232.5, y: 20}
+  - {x: 232.75, y: 20}
+  - {x: 233, y: 20}
+  - {x: 233.25, y: 20}
+  - {x: 233.5, y: 20}
+  - {x: 233.75, y: 20}
+  - {x: 234, y: 20}
+  - {x: 234.25, y: 20}
+  - {x: 234.5, y: 20}
+  - {x: 234.75, y: 20}
+  - {x: 235, y: 20}
+  - {x: 235.25, y: 20}
+  - {x: 235.5, y: 20}
+  - {x: 235.75, y: 20}
+  - {x: 236, y: 20}
+  - {x: 236.25, y: 20}
+  - {x: 236.5, y: 20}
+  - {x: 236.75, y: 20}
+  - {x: 237, y: 20}
+  - {x: 237.25, y: 20}
+  - {x: 237.5, y: 20}
+  - {x: 237.75, y: 20}
+  - {x: 238, y: 20}
+  - {x: 238.25, y: 20}
+  - {x: 238.5, y: 20}
+  - {x: 238.75, y: 20}
+  - {x: 239, y: 20}
+  - {x: 239.25, y: 20}
+  - {x: 239.5, y: 20}
+  - {x: 239.75, y: 20}
+  - {x: 240, y: 20}
+  - {x: 240.25, y: 20}
+  - {x: 240.5, y: 20}
+  - {x: 240.75, y: 20}
+  - {x: 241, y: 20}
+  - {x: 241.25, y: 20}
+  - {x: 241.5, y: 20}
+  - {x: 241.75, y: 20}
+  - {x: 242, y: 20}
+  - {x: 242.25, y: 20}
+  - {x: 242.5, y: 20}
+  - {x: 242.75, y: 20}
+  - {x: 243, y: 20}
+  - {x: 243.25, y: 20}
+  - {x: 243.5, y: 20}
+  - {x: 243.75, y: 20}
+  - {x: 244, y: 20}
+  - {x: 244.25, y: 20}
+  - {x: 244.5, y: 20}
+  - {x: 244.75, y: 20}
+  - {x: 245, y: 20}
+  - {x: 245.25, y: 20}
+  - {x: 245.5, y: 20}
+  - {x: 245.75, y: 20}
+  - {x: 246, y: 20}
+  - {x: 246.25, y: 20}
+  - {x: 246.5, y: 20}
+  - {x: 246.75, y: 20}
+  - {x: 247, y: 20}
+  - {x: 247.25, y: 20}
+  - {x: 247.5, y: 20}
+  - {x: 247.75, y: 20}
+  - {x: 248, y: 20}
+  - {x: 248.25, y: 20}
+  - {x: 248.5, y: 20}
+  - {x: 248.75, y: 20}
+  - {x: 249, y: 20}
+  - {x: 249.25, y: 20}
+  - {x: 249.5, y: 20}
+  - {x: 249.75, y: 20}
+  - {x: 250, y: 20}
+  - {x: 250.25, y: 20}
+  - {x: 250.5, y: 20}
+  - {x: 250.75, y: 20}
+  - {x: 251, y: 20}
+  - {x: 251.25, y: 20}
+  - {x: 251.5, y: 20}
+  - {x: 251.75, y: 20}
+  - {x: 252, y: 20}
+  - {x: 252.25, y: 20}
+  - {x: 252.5, y: 20}
+  - {x: 252.75, y: 20}
+  - {x: 253, y: 20}
+  - {x: 253.25, y: 20}
+  - {x: 253.5, y: 20}
+  - {x: 253.75, y: 20}
+  - {x: 254, y: 20}
+  - {x: 254.25, y: 20}
+  - {x: 254.5, y: 20}
+  - {x: 254.75, y: 20}
+  - {x: 255, y: 20}
+  - {x: 255.25, y: 20}
+  - {x: 255.5, y: 20}
+  - {x: 255.75, y: 20}
+  - {x: 256, y: 20}
+  - {x: 256.25, y: 20}
+  - {x: 256.5, y: 20}
+  - {x: 256.75, y: 20}
+  - {x: 257, y: 20}
+  - {x: 257.25, y: 20}
+  - {x: 257.5, y: 20}
+  - {x: 257.75, y: 20}
+  - {x: 258, y: 20}
+  - {x: 258.25, y: 20}
+  - {x: 258.5, y: 20}
+  - {x: 258.75, y: 20}
+  - {x: 259, y: 20}
+  - {x: 259.25, y: 20}
+  - {x: 259.5, y: 20}
+  - {x: 259.75, y: 20}
+  - {x: 260, y: 20}
+  - {x: 260.25, y: 20}
+  - {x: 260.5, y: 20}
+  - {x: 260.75, y: 20}
+  - {x: 261, y: 20}
+  - {x: 261.25, y: 20}
+  - {x: 261.5, y: 20}
+  - {x: 261.75, y: 20}
+  - {x: 262, y: 20}
+  - {x: 262.25, y: 20}
+  - {x: 262.5, y: 20}
+  - {x: 262.75, y: 20}
+  - {x: 263, y: 20}
+  - {x: 263.25, y: 20}
+  - {x: 263.5, y: 20}
+  - {x: 263.75, y: 20}
+  - {x: 264, y: 20}
+  - {x: 264.25, y: 20}
+  - {x: 264.5, y: 20}
+  - {x: 264.75, y: 20}
+  - {x: 265, y: 20}
+  - {x: 265.25, y: 20}
+  - {x: 265.5, y: 20}
+  - {x: 265.75, y: 20}
+  - {x: 266, y: 20}
+  - {x: 266.25, y: 20}
+  - {x: 266.5, y: 20}
+  - {x: 266.75, y: 20}
+  - {x: 267, y: 20}
+  - {x: 267.25, y: 20}
+  - {x: 267.5, y: 20}
+  - {x: 267.75, y: 20}
+  - {x: 268, y: 20}
+  - {x: 268.25, y: 20}
+  - {x: 268.5, y: 20}
+  - {x: 268.75, y: 20}
+  - {x: 269, y: 20}
+  - {x: 269.25, y: 20}
+  - {x: 269.5, y: 20}
+  - {x: 269.75, y: 20}
+--- !u!114 &10
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: GameView
+  m_EditorClassIdentifier: 
+  m_Children: []
+  m_Position:
+    serializedVersion: 2
+    x: 402
+    y: 0
+    width: 1047
+    height: 654
+  m_MinSize: {x: 102, y: 121}
+  m_MaxSize: {x: 4002, y: 4021}
+  m_ActualView: {fileID: 2}
+  m_Panes:
+  - {fileID: 11}
+  - {fileID: 2}
+  m_Selected: 1
+  m_LastSelected: 0
+--- !u!114 &11
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12013, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Scene
+    m_Image: {fileID: 2593428753322112591, guid: 0000000000000000d000000000000000, type: 0}
+    m_Tooltip: 
+  m_Pos:
+    serializedVersion: 2
+    x: 402
+    y: 73
+    width: 1045
+    height: 633
+  m_SerializedDataModeController:
+    m_DataMode: 0
+    m_PreferredDataMode: 0
+    m_SupportedDataModes: 
+    isAutomatic: 1
+  m_ViewDataDictionary: {fileID: 0}
+  m_OverlayCanvas:
+    m_LastAppliedPresetName: Default
+    m_SaveData:
+    - dockPosition: 0
+      containerId: overlay-toolbar__top
+      floating: 0
+      collapsed: 0
+      displayed: 1
+      snapOffset: {x: -171, y: -26}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 3
+      id: Tool Settings
+      index: 0
+      layout: 1
+      size: {x: 0, y: 0}
+      sizeOverriden: 0
+    - dockPosition: 0
+      containerId: overlay-toolbar__top
+      floating: 0
+      collapsed: 0
+      displayed: 1
+      snapOffset: {x: -141, y: 149}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 1
+      id: unity-grid-and-snap-toolbar
+      index: 1
+      layout: 1
+      size: {x: 0, y: 0}
+      sizeOverriden: 0
+    - dockPosition: 1
+      containerId: overlay-toolbar__top
+      floating: 0
+      collapsed: 0
+      displayed: 1
+      snapOffset: {x: 0, y: 25}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      id: unity-scene-view-toolbar
+      index: 0
+      layout: 1
+      size: {x: 0, y: 0}
+      sizeOverriden: 0
+    - dockPosition: 1
+      containerId: overlay-toolbar__top
+      floating: 0
+      collapsed: 0
+      displayed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 1
+      id: unity-search-toolbar
+      index: 1
+      layout: 1
+      size: {x: 0, y: 0}
+      sizeOverriden: 0
+    - dockPosition: 0
+      containerId: overlay-toolbar__left
+      floating: 0
+      collapsed: 0
+      displayed: 1
+      snapOffset: {x: -65, y: 26}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 1
+      id: unity-transform-toolbar
+      index: 0
+      layout: 2
+      size: {x: 0, y: 0}
+      sizeOverriden: 0
+    - dockPosition: 0
+      containerId: overlay-container--left
+      floating: 0
+      collapsed: 0
+      displayed: 1
+      snapOffset: {x: 0, y: 197}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      id: unity-component-tools
+      index: 1
+      layout: 2
+      size: {x: 0, y: 0}
+      sizeOverriden: 0
+    - dockPosition: 0
+      containerId: overlay-container--right
+      floating: 0
+      collapsed: 0
+      displayed: 1
+      snapOffset: {x: 1, y: 86}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      id: Orientation
+      index: 0
+      layout: 4
+      size: {x: 0, y: 0}
+      sizeOverriden: 0
+    - dockPosition: 1
+      containerId: overlay-container--right
+      floating: 0
+      collapsed: 0
+      displayed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      id: Scene View/Light Settings
+      index: 0
+      layout: 4
+      size: {x: 0, y: 0}
+      sizeOverriden: 0
+    - dockPosition: 1
+      containerId: overlay-container--right
+      floating: 0
+      collapsed: 0
+      displayed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      id: Scene View/Camera
+      index: 1
+      layout: 4
+      size: {x: 0, y: 0}
+      sizeOverriden: 0
+    - dockPosition: 1
+      containerId: overlay-container--right
+      floating: 0
+      collapsed: 0
+      displayed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      id: Scene View/Cloth Constraints
+      index: 1
+      layout: 4
+      size: {x: 0, y: 0}
+      sizeOverriden: 0
+    - dockPosition: 1
+      containerId: overlay-container--right
+      floating: 0
+      collapsed: 0
+      displayed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      id: Scene View/Cloth Collisions
+      index: 2
+      layout: 4
+      size: {x: 0, y: 0}
+      sizeOverriden: 0
+    - dockPosition: 1
+      containerId: overlay-container--right
+      floating: 0
+      collapsed: 0
+      displayed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      id: Scene View/Navmesh Display
+      index: 4
+      layout: 4
+      size: {x: 0, y: 0}
+      sizeOverriden: 0
+    - dockPosition: 1
+      containerId: overlay-container--right
+      floating: 0
+      collapsed: 0
+      displayed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      id: Scene View/Agent Display
+      index: 5
+      layout: 4
+      size: {x: 0, y: 0}
+      sizeOverriden: 0
+    - dockPosition: 1
+      containerId: overlay-container--right
+      floating: 0
+      collapsed: 0
+      displayed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      id: Scene View/Obstacle Display
+      index: 6
+      layout: 4
+      size: {x: 0, y: 0}
+      sizeOverriden: 0
+    - dockPosition: 1
+      containerId: overlay-container--right
+      floating: 0
+      collapsed: 0
+      displayed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      id: Scene View/Occlusion Culling
+      index: 3
+      layout: 4
+      size: {x: 0, y: 0}
+      sizeOverriden: 0
+    - dockPosition: 1
+      containerId: overlay-container--right
+      floating: 0
+      collapsed: 0
+      displayed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      id: Scene View/Physics Debugger
+      index: 4
+      layout: 4
+      size: {x: 0, y: 0}
+      sizeOverriden: 0
+    - dockPosition: 1
+      containerId: overlay-container--right
+      floating: 0
+      collapsed: 0
+      displayed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      id: Scene View/Scene Visibility
+      index: 5
+      layout: 4
+      size: {x: 0, y: 0}
+      sizeOverriden: 0
+    - dockPosition: 1
+      containerId: overlay-container--right
+      floating: 0
+      collapsed: 0
+      displayed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      id: Scene View/Particles
+      index: 6
+      layout: 4
+      size: {x: 0, y: 0}
+      sizeOverriden: 0
+    - dockPosition: 1
+      containerId: overlay-container--right
+      floating: 0
+      collapsed: 0
+      displayed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      id: Scene View/Tilemap
+      index: 11
+      layout: 4
+      size: {x: 0, y: 0}
+      sizeOverriden: 0
+    - dockPosition: 1
+      containerId: overlay-container--right
+      floating: 0
+      collapsed: 0
+      displayed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      id: Scene View/Tilemap Palette Helper
+      index: 12
+      layout: 4
+      size: {x: 0, y: 0}
+      sizeOverriden: 0
+    - dockPosition: 1
+      containerId: overlay-container--right
+      floating: 0
+      collapsed: 0
+      displayed: 0
+      snapOffset: {x: 48, y: 48}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      id: Scene View/Open Tile Palette
+      index: 0
+      layout: 4
+      size: {x: 0, y: 0}
+      sizeOverriden: 0
+    - dockPosition: 1
+      containerId: overlay-container--right
+      floating: 0
+      collapsed: 0
+      displayed: 0
+      snapOffset: {x: 48, y: 48}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      id: Scene View/Tilemap Focus
+      index: 1
+      layout: 4
+      size: {x: 0, y: 0}
+      sizeOverriden: 0
+    - dockPosition: 1
+      containerId: overlay-container--right
+      floating: 0
+      collapsed: 0
+      displayed: 0
+      snapOffset: {x: 48, y: 48}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      id: Scene View/Path
+      index: 9
+      layout: 4
+      size: {x: 0, y: 0}
+      sizeOverriden: 0
+    - dockPosition: 0
+      containerId: overlay-toolbar__left
+      floating: 0
+      collapsed: 1
+      displayed: 1
+      snapOffset: {x: -207, y: -285}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 3
+      id: AINavigationOverlay
+      index: 0
+      layout: 4
+      size: {x: 0, y: 0}
+      sizeOverriden: 0
+    - dockPosition: 1
+      containerId: overlay-container--right
+      floating: 0
+      collapsed: 0
+      displayed: 0
+      snapOffset: {x: 48, y: 48}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      id: Scene View/TrailRenderer
+      index: 7
+      layout: 4
+      size: {x: 0, y: 0}
+      sizeOverriden: 0
+    - dockPosition: 1
+      containerId: overlay-toolbar__left
+      floating: 0
+      collapsed: 1
+      displayed: 1
+      snapOffset: {x: 172, y: 367}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      id: UnityEditor.SceneViewCameraOverlay
+      index: 0
+      layout: 4
+      size: {x: 0, y: 0}
+      sizeOverriden: 0
+    - dockPosition: 1
+      containerId: overlay-container--right
+      floating: 0
+      collapsed: 0
+      displayed: 0
+      snapOffset: {x: 48, y: 48}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      id: Scene View/Visual Effect
+      index: 8
+      layout: 4
+      size: {x: 0, y: 0}
+      sizeOverriden: 0
+    - dockPosition: 1
+      containerId: overlay-container--right
+      floating: 0
+      collapsed: 0
+      displayed: 0
+      snapOffset: {x: 48, y: 48}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      id: Scene View/Visual Effect Timeline Control
+      index: 9
+      layout: 4
+      size: {x: 0, y: 0}
+      sizeOverriden: 0
+    - dockPosition: 1
+      containerId: overlay-container--right
+      floating: 0
+      collapsed: 0
+      displayed: 0
+      snapOffset: {x: 48, y: 48}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      id: Scene View/Visual Effect Model
+      index: 10
+      layout: 4
+      size: {x: 0, y: 0}
+      sizeOverriden: 0
+    - dockPosition: 1
+      containerId: overlay-container--right
+      floating: 0
+      collapsed: 0
+      displayed: 0
+      snapOffset: {x: 48, y: 48}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      id: Scene View/Visual Effect Event Tester
+      index: 11
+      layout: 4
+      size: {x: 0, y: 0}
+      sizeOverriden: 0
+    - dockPosition: 1
+      containerId: overlay-container--right
+      floating: 0
+      collapsed: 0
+      displayed: 0
+      snapOffset: {x: 48, y: 48}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      id: APV Overlay
+      index: 12
+      layout: 4
+      size: {x: 0, y: 0}
+      sizeOverriden: 0
+    m_OverlaysVisible: 1
+  m_WindowGUID: cc27987af1a868c49b0894db9c0f5429
+  m_Gizmos: 1
+  m_OverrideSceneCullingMask: 6917529027641081856
+  m_SceneIsLit: 1
+  m_SceneLighting: 1
+  m_2DMode: 0
+  m_isRotationLocked: 0
+  m_PlayAudio: 0
+  m_AudioPlay: 0
+  m_Position:
+    m_Target: {x: -4.7758436, y: -11.347747, z: 84.70899}
+    speed: 2
+    m_Value: {x: -4.7758436, y: -11.347747, z: 84.70899}
+  m_RenderMode: 0
+  m_CameraMode:
+    drawMode: 0
+    name: Shaded
+    section: Shading Mode
+  m_ValidateTrueMetals: 0
+  m_DoValidateTrueMetals: 0
+  m_SceneViewState:
+    m_AlwaysRefresh: 0
+    showFog: 1
+    showSkybox: 0
+    showFlares: 1
+    showImageEffects: 1
+    showParticleSystems: 1
+    showVisualEffectGraphs: 1
+    m_FxEnabled: 1
+  m_Grid:
+    xGrid:
+      m_Fade:
+        m_Target: 0
+        speed: 2
+        m_Value: 0
+      m_Color: {r: 0.5, g: 0.5, b: 0.5, a: 0.4}
+      m_Pivot: {x: 0, y: 0, z: 0}
+      m_Size: {x: 1, y: 1}
+    yGrid:
+      m_Fade:
+        m_Target: 1
+        speed: 2
+        m_Value: 1
+      m_Color: {r: 0.5, g: 0.5, b: 0.5, a: 0.4}
+      m_Pivot: {x: 0, y: 0, z: 0}
+      m_Size: {x: 1, y: 1}
+    zGrid:
+      m_Fade:
+        m_Target: 0
+        speed: 2
+        m_Value: 0
+      m_Color: {r: 0.5, g: 0.5, b: 0.5, a: 0.4}
+      m_Pivot: {x: 0, y: 0, z: 0}
+      m_Size: {x: 1, y: 1}
+    m_ShowGrid: 1
+    m_GridAxis: 1
+    m_gridOpacity: 0.5
+  m_Rotation:
+    m_Target: {x: 0.06504912, y: -0.006365898, z: 0.00035452846, w: 0.99793124}
+    speed: 2
+    m_Value: {x: 0.065044604, y: -0.0063654566, z: 0.00035450386, w: 0.997862}
+  m_Size:
+    m_Target: 47.60641
+    speed: 2
+    m_Value: 47.60641
+  m_Ortho:
+    m_Target: 0
+    speed: 2
+    m_Value: 0
+  m_CameraSettings:
+    m_Speed: 0.94053
+    m_SpeedNormalized: 0.47
+    m_SpeedMin: 0.001
+    m_SpeedMax: 2
+    m_EasingEnabled: 1
+    m_EasingDuration: 0.4
+    m_AccelerationEnabled: 1
+    m_FieldOfViewHorizontalOrVertical: 60
+    m_NearClip: 0.03
+    m_FarClip: 10000
+    m_DynamicClip: 1
+    m_OcclusionCulling: 0
+  m_LastSceneViewRotation: {x: -0.08717229, y: 0.89959055, z: -0.21045254, w: -0.3726226}
+  m_LastSceneViewOrtho: 0
+  m_ReplacementShader: {fileID: 0}
+  m_ReplacementString: 
+  m_SceneVisActive: 0
+  m_LastLockedObject: {fileID: 0}
+  m_ViewIsLockedToObject: 0
+--- !u!114 &12
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: ProjectBrowser
+  m_EditorClassIdentifier: 
+  m_Children: []
+  m_Position:
+    serializedVersion: 2
+    x: 0
+    y: 654
+    width: 1449
+    height: 293
+  m_MinSize: {x: 231, y: 271}
+  m_MaxSize: {x: 10001, y: 10021}
+  m_ActualView: {fileID: 13}
+  m_Panes:
+  - {fileID: 13}
+  - {fileID: 14}
+  - {fileID: 15}
+  m_Selected: 0
+  m_LastSelected: 1
+--- !u!114 &13
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12014, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 230, y: 250}
+  m_MaxSize: {x: 10000, y: 10000}
+  m_TitleContent:
+    m_Text: Project
+    m_Image: {fileID: -5467254957812901981, guid: 0000000000000000d000000000000000, type: 0}
+    m_Tooltip: 
+  m_Pos:
+    serializedVersion: 2
+    x: 0
+    y: 727
+    width: 1448
+    height: 272
+  m_SerializedDataModeController:
+    m_DataMode: 0
+    m_PreferredDataMode: 0
+    m_SupportedDataModes: 
+    isAutomatic: 1
+  m_ViewDataDictionary: {fileID: 0}
+  m_OverlayCanvas:
+    m_LastAppliedPresetName: Default
+    m_SaveData: []
+    m_OverlaysVisible: 1
+  m_SearchFilter:
+    m_NameFilter: 
+    m_ClassNames: []
+    m_AssetLabels: []
+    m_AssetBundleNames: []
+    m_ReferencingInstanceIDs: 
+    m_SceneHandles: 
+    m_ShowAllHits: 0
+    m_SkipHidden: 0
+    m_SearchArea: 1
+    m_Folders:
+    - Assets/Resources/Objects/Complex
+    m_Globs: []
+    m_OriginalText: 
+    m_ImportLogFlags: 0
+    m_FilterByTypeIntersection: 0
+  m_ViewMode: 1
+  m_StartGridSize: 64
+  m_LastFolders:
+  - Assets/Resources/Objects/Complex
+  m_LastFoldersGridSize: -1
+  m_LastProjectPath: D:\Thesis Project
+  m_LockTracker:
+    m_IsLocked: 0
+  m_FolderTreeState:
+    scrollPos: {x: 0, y: 212}
+    m_SelectedIDs: 7c780000
+    m_LastClickedID: 30844
+    m_ExpandedIDs: 000000009076000092760000607800006c7800006e78000076780000ae7d000000ca9a3b
+    m_RenameOverlay:
+      m_UserAcceptedRename: 0
+      m_Name: 
+      m_OriginalName: 
+      m_EditFieldRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      m_UserData: 0
+      m_IsWaitingForDelay: 0
+      m_IsRenaming: 0
+      m_OriginalEventType: 11
+      m_IsRenamingFilename: 1
+      m_ClientGUIView: {fileID: 0}
+    m_SearchString: 
+    m_CreateAssetUtility:
+      m_EndAction: {fileID: 0}
+      m_InstanceID: 0
+      m_Path: 
+      m_Icon: {fileID: 0}
+      m_ResourceFile: 
+  m_AssetTreeState:
+    scrollPos: {x: 0, y: 0}
+    m_SelectedIDs: 
+    m_LastClickedID: 0
+    m_ExpandedIDs: 00000000907600009276000000ca9a3b
+    m_RenameOverlay:
+      m_UserAcceptedRename: 0
+      m_Name: 
+      m_OriginalName: 
+      m_EditFieldRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      m_UserData: 0
+      m_IsWaitingForDelay: 0
+      m_IsRenaming: 0
+      m_OriginalEventType: 11
+      m_IsRenamingFilename: 1
+      m_ClientGUIView: {fileID: 0}
+    m_SearchString: 
+    m_CreateAssetUtility:
+      m_EndAction: {fileID: 0}
+      m_InstanceID: 0
+      m_Path: 
+      m_Icon: {fileID: 0}
+      m_ResourceFile: 
+  m_ListAreaState:
+    m_SelectedInstanceIDs: 0a750000
+    m_LastClickedInstanceID: 29962
+    m_HadKeyboardFocusLastEvent: 1
+    m_ExpandedInstanceIDs: c623000026810000065a000000000000
+    m_RenameOverlay:
+      m_UserAcceptedRename: 0
+      m_Name: Cone
+      m_OriginalName: Cone
+      m_EditFieldRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      m_UserData: 30700
+      m_IsWaitingForDelay: 0
+      m_IsRenaming: 0
+      m_OriginalEventType: 0
+      m_IsRenamingFilename: 1
+      m_ClientGUIView: {fileID: 12}
+    m_CreateAssetUtility:
+      m_EndAction: {fileID: 0}
+      m_InstanceID: 0
+      m_Path: 
+      m_Icon: {fileID: 0}
+      m_ResourceFile: 
+    m_NewAssetIndexInList: -1
+    m_ScrollPosition: {x: 0, y: 0}
+    m_GridSize: 64
+  m_SkipHiddenPackages: 0
+  m_DirectoriesAreaWidth: 207
+--- !u!114 &14
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12003, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 100, y: 100}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Console
+    m_Image: {fileID: -4327648978806127646, guid: 0000000000000000d000000000000000, type: 0}
+    m_Tooltip: 
+  m_Pos:
+    serializedVersion: 2
+    x: 0
+    y: 727
+    width: 1448
+    height: 272
+  m_SerializedDataModeController:
+    m_DataMode: 0
+    m_PreferredDataMode: 0
+    m_SupportedDataModes: 
+    isAutomatic: 1
+  m_ViewDataDictionary: {fileID: 0}
+  m_OverlayCanvas:
+    m_LastAppliedPresetName: Default
+    m_SaveData: []
+    m_OverlaysVisible: 1
+--- !u!114 &15
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 12071, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 100, y: 100}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Animation
+    m_Image: {fileID: -8166618308981325432, guid: 0000000000000000d000000000000000, type: 0}
+    m_Tooltip: 
+  m_Pos:
+    serializedVersion: 2
+    x: 0
+    y: 727
+    width: 1590
+    height: 272
+  m_SerializedDataModeController:
+    m_DataMode: 0
+    m_PreferredDataMode: 0
+    m_SupportedDataModes: 
+    isAutomatic: 1
+  m_ViewDataDictionary: {fileID: 0}
+  m_OverlayCanvas:
+    m_LastAppliedPresetName: Default
+    m_SaveData: []
+    m_OverlaysVisible: 1
+  m_LockTracker:
+    m_IsLocked: 0
+  m_LastSelectedObjectID: 29962
+--- !u!114 &16
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: InspectorWindow
+  m_EditorClassIdentifier: 
+  m_Children: []
+  m_Position:
+    serializedVersion: 2
+    x: 1449
+    y: 0
+    width: 471
+    height: 947
+  m_MinSize: {x: 275, y: 100}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_ActualView: {fileID: 17}
+  m_Panes:
+  - {fileID: 17}
+  - {fileID: 18}
+  m_Selected: 0
+  m_LastSelected: 1
+--- !u!114 &17
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 12019, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 275, y: 100}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Inspector
+    m_Image: {fileID: -2667387946076563598, guid: 0000000000000000d000000000000000, type: 0}
+    m_Tooltip: 
+  m_Pos:
+    serializedVersion: 2
+    x: 1449
+    y: 73
+    width: 470
+    height: 926
+  m_SerializedDataModeController:
+    m_DataMode: 0
+    m_PreferredDataMode: 0
+    m_SupportedDataModes: 
+    isAutomatic: 1
+  m_ViewDataDictionary: {fileID: 0}
+  m_OverlayCanvas:
+    m_LastAppliedPresetName: Default
+    m_SaveData: []
+    m_OverlaysVisible: 1
+  m_ObjectsLockedBeforeSerialization: []
+  m_InstanceIDsLockedBeforeSerialization: 
+  m_PreviewResizer:
+    m_CachedPref: 308
+    m_ControlHash: 1412526313
+    m_PrefName: Preview_InspectorPreview
+  m_LastInspectedObjectInstanceID: -1
+  m_LastVerticalScrollValue: 0
+  m_GlobalObjectId: 
+  m_InspectorMode: 0
+  m_LockTracker:
+    m_IsLocked: 0
+  m_PreviewWindow: {fileID: 0}
+--- !u!114 &18
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 12079, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 390, y: 390}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Lighting
+    m_Image: {fileID: -1347227620855488341, guid: 0000000000000000d000000000000000, type: 0}
+    m_Tooltip: 
+  m_Pos:
+    serializedVersion: 2
+    x: 1449
+    y: 73
+    width: 470
+    height: 926
+  m_SerializedDataModeController:
+    m_DataMode: 0
+    m_PreferredDataMode: 0
+    m_SupportedDataModes: 
+    isAutomatic: 1
+  m_ViewDataDictionary: {fileID: 0}
+  m_OverlayCanvas:
+    m_LastAppliedPresetName: Default
+    m_SaveData: []
+    m_OverlaysVisible: 1
